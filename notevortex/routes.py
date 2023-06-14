@@ -66,9 +66,7 @@ def add_note():
             else:
                 note.title=f"{note.content[:30]}..."
         note.title=note.title.capitalize()
-        print(note)
         note=encrypt_note(note)
-        print(note)
         current_app.db.notes.insert_one(asdict(note))
         current_app.db.user.update_one({"_id":session.get("_id")},{"$push":{"notes":note._id}})
         return redirect(url_for('.index'))
