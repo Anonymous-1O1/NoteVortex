@@ -1,0 +1,2 @@
+FLASK_APP=notevortex
+FLASK_ENVIRONMENT=development
