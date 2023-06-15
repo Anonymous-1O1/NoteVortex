@@ -65,7 +65,7 @@ def add_note():
                 note.title=note.content
             else:
                 note.title=f"{note.content[:30]}..."
-        note.title=note.title.capitalize()
+        
         note=encrypt_note(note)
         current_app.db.notes.insert_one(asdict(note))
         current_app.db.user.update_one({"_id":session.get("_id")},{"$push":{"notes":note._id}})
@@ -163,7 +163,7 @@ def edit_note(_id:str):
             else:
                 note.title=f"{note.content[:30]}..."
 
-        note.title=note.title.capitalize()
+
 
         note.last_edited=datetime.today().strftime("%d/%m/%Y")
         note=encrypt_note(note)
