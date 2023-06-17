@@ -7,8 +7,9 @@ import uuid
 from datetime import datetime
 import functools
 from cryptography.fernet import Fernet
-pages=Blueprint("pages",__name__,template_folder="templates",static_folder="static")
 
+
+pages=Blueprint("pages",__name__,template_folder="templates",static_folder="static")
 
 def login_required(route):
     @functools.wraps(route)
