@@ -1,0 +1,37 @@
+.note{
+    padding:2em;
+    max-width: 70em;
+    margin: 0 auto;
+}
+
+
+
+.heading{
+    color:var(--main-color);
+}
+
+.date{
+    color:var(--main-color)
+}
+.content{
+    color:var(--main-color);
+}
+
+.note__pre-details{
+    margin-bottom: 1em;
+}
+
+.button__container{
+    margin-top: 3em;
+}
+.button{
+    padding:0.5em 1em;
+    color:var(--main-color);
+    background-color: var(--accent-color);
+    border-radius:1em;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: var(--accent-focus);
+}
