@@ -12,3 +12,4 @@ Features:
 
 
 check out the website [here](https://notevortex.onrender.com).
+(link might take up to 15s to load)
