@@ -7,5 +7,5 @@ To add a new note after loggin in, click on the button on the navigation bar whi
 After that key in the title and the content of the note and click on "add note" button in the form
 
 Features:
-toggle between light and dark theme
-Add, edit, delete and pin notes
+1) toggle between light and dark theme
+2) Add, edit, delete and pin notes
