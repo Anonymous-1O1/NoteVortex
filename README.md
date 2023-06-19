@@ -1,4 +1,4 @@
-# NoteVo
+# NoteVortex
 
 A website where people can store their notes
 
